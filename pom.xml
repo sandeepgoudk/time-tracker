@@ -84,13 +84,13 @@
                 </reportSets>
             </plugin>
                  
-                 <properties>
+                 <plugin>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
                 <sonar.host.url > http://65.0.71.47:9009
                 </sonar.host.url >
                 </sonar.login>admin</sonar.login>
                 </sonar.passowrd>sonar</sonar.password>
-            </properties>
+            </plugin>
             
                 <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
