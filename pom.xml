@@ -20,6 +20,9 @@
         <pmd.version>3.8</pmd.version>
         <checkstyle.version>2.17</checkstyle.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+              <sonar.host.url > http://65.0.71.47:9009</sonar.host.url> 
+                       </sonar.login>admin</sonar.login>
+                </sonar.passowrd>sonar</sonar.password>
     </properties>
 
     <modules>
@@ -84,12 +87,6 @@
                 </reportSets>
             </plugin>
               <plugin>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url > http://65.0.71.47:9009</sonar.host.url> 
-                       </sonar.login>admin</sonar.login>
-                </sonar.passowrd>sonar</sonar.password>
-            </plugin>
-             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
