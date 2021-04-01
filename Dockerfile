@@ -1,2 +1,2 @@
 FROM   ubuntu
-USER   ubuntu
+VOLUME ["/data"]
