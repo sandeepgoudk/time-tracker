@@ -1,4 +1,4 @@
-FROM   myubuntu
+FROM   ubuntu
 USER   jenkins
 RUN    apk add --update py2-pip
 COPY   requirments.txt /usr/src/app
